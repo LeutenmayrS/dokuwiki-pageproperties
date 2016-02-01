@@ -1,0 +1,7 @@
+base   pageproperties
+author Stefan Leutenmayr
+email  stefan.leutenmayr@freenet.de
+date   2016-01-26
+name   pageproperties plugin
+desc   Shows the properties of the current id
+url    http://www.dokuwiki.org

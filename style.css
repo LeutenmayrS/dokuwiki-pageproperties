@@ -1,0 +1,23 @@
+/**
+ * papeproperties pagetool icon
+ */
+
+/* export icon */
+#dokuwiki__pagetools ul li a.pageproperties {
+    background-position: right 0;
+}
+#dokuwiki__pagetools ul li a.pageproperties:before {
+    content: url(pageproperties_sprite.png);
+    margin-top: 0;
+}
+#dokuwiki__pagetools:hover ul li a.pageproperties,
+#dokuwiki__pagetools ul li a.pageproperties:focus,
+#dokuwiki__pagetools ul li a.pageproperties:active {
+    background-image: url(pageproperties_sprite.png);
+}
+#dokuwiki__pagetools ul li a.pageproperties:hover,
+#dokuwiki__pagetools ul li a.pageproperties:active,
+#dokuwiki__pagetools ul li a.pageproperties:focus {
+    background-position: right -45px;
+}
+
